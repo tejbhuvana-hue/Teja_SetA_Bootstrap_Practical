@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container py-3">
+        <a class="navbar-brand fw-semibold text-primary" href="#">
+          Task-2 :- Product Listing
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <form class="d-flex ms-auto w-100 w-lg-auto mt-3 mt-lg-0" role="search">
+            <div class="input-group search-input">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search products"
+                aria-label="Search products"
+              />
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container py-5">
+      <div class="text-center mb-5">
+        <p class="text-uppercase text-secondary mb-2 small">Featured collection</p>
+        <h1 class="fw-bold mb-3">Modern Products for Every Need</h1>
+        <p class="text-muted mx-auto" style="max-width: 640px;">
+          Browse a selection of six carefully chosen items with clean styling,
+          friendly spacing, and a responsive layout for all screens.
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              class="card-img-top product-image"
+              alt="Wireless headphones"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Wireless Headphones</h2>
+              <p class="text-muted mb-4">Comfortable sound for daily use.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$89.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://www.shutterstock.com/image-photo/white-design-school-backpack-travel-600nw-2238398691.jpg"
+              class="card-img-top product-image"
+              alt="Classic backpack"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Classic Backpack</h2>
+              <p class="text-muted mb-4">Durable carry for work and travel.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$54.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top product-image"
+              alt="Elegant watch"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Elegant Watch</h2>
+              <p class="text-muted mb-4">A polished look with modern details.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$120.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1570974802254-4b0ad1a755f5?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGUlMjBsYW1wfGVufDB8fDB8fHww"
+              class="card-img-top product-image"
+              alt="Desk lamp"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Desk Lamp</h2>
+              <p class="text-muted mb-4">Soft lighting for study and workspace.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$38.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://photo.myphotobook.co.uk/fit-in/600x600/filters:format(webp)/products/MPB-UK/EL-6530-2214-1_1.jpeg"
+              class="card-img-top product-image"
+              alt="Travel mug"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Travel Mug</h2>
+              <p class="text-muted mb-4">Keeps beverages warm on the move.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$24.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card product-card h-100 border-0 shadow-sm overflow-hidden">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2024/3/395403438/ND/YX/PJ/94580468/1-500x500.jpeg"
+              class="card-img-top product-image"
+              alt="Notebook set"
+            />
+            <div class="card-body">
+              <h2 class="h6 fw-semibold">Notebook Set</h2>
+              <p class="text-muted mb-4">A premium set for notes and planning.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary">$29.00</span>
+                <button class="btn btn-sm btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white border-top py-4">
+      <div class="container text-center text-muted small">
+        &copy; 2026 ShopEase. All rights reserved.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
